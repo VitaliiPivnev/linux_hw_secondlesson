@@ -1,0 +1,62 @@
+   0 ды
+   1 ls
+   2 cd
+   3 cd /home
+   4 mkdir animals
+   5 ls
+   6 cd /animals
+   7 animals
+   8 cd animals
+   9 mkdir /dogs
+  10 mkdir /cats
+  11 mkdir /fish
+  12 ls
+  13 cd dogs
+  14 ls
+  15 cd
+  16 cd /home
+  17 tree home
+  18 tree /home
+  19 cd animals
+  20 mkdir dogs
+  21 mkdir cats
+  22 mkdir fish
+  23 ls
+  24 cd cats
+  25 touch garfield.txt
+  26 ls
+  27 cd /home/animals/
+  28 cd dogs
+  29 touch pluto.txt
+  30 ls
+  31 cd /home/animals/fish
+  32 touch nemo.txt
+  33 ls
+  34 cd /home/animals
+  35 tree
+  36 cd
+  37 cd /tmp
+  38 touch adam.txt
+  39 ls
+  40 cd /home
+  41 mkdir humans
+  42 ls
+  43 cd
+  44 cp /tmp/humans.txt /home/humans
+  45 cd /tmp
+  46 ls
+  47 cp /adam.txt /home/humans
+  48 cp /tmp/adam.txt /home/humans
+  49 cd /home/humans
+  50 ls
+  51 cd /tmp
+  52 touch evA.txt
+  53 ls
+  54 mv /tmp/evA.txt /opt/eve.txt
+  55 cd /opt
+  56 ls
+  57 mv /opt/eve.txt /home/humans
+  58 cd /home/humans
+  59 ls
+  60 history
+  61 history > homeWork.txt
